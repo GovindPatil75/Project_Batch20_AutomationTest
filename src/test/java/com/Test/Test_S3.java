@@ -9,7 +9,8 @@ public class Test_S3 {
 
 	public static void main(String[] args) {
 		
-		WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\Downloads\\Chrome_EXE\\chromedriver.exe");
+		//WebDriverManager.chromedriver().setup();
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
