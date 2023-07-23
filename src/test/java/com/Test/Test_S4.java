@@ -9,6 +9,7 @@ public class Test_S4 {
 	public static void main(String[] args) throws Exception {
 		
 		WebDriverManager.chromedriver().setup();
+		
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();

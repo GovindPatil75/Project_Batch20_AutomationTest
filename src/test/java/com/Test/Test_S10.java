@@ -14,7 +14,8 @@ public class Test_S10 {
 	public static void main(String[] args) {
 		
 		  //WebDriverManager.chromedriver().setup();
-		  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\eclipse-workspace\\Project_Batch20_AutomationTest\\Driver\\chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver", 
+				  "C:\\Users\\Dell\\eclipse-workspace\\Project_Batch20_AutomationTest\\Driver\\chromedriver.exe");
 		  
 	      ChromeDriver driver=new ChromeDriver();
 	      driver.get("https://demo.guru99.com/test/newtours/register.php");
