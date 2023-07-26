@@ -34,7 +34,7 @@ public class Test_S14 {
 
 			      act.doubleClick(doubleclickelement).build().perform();
 			      
-			     // getActions(driver).doubleClick(doubleclickelement);
+			     // getActions(driver).doubleClick(doubleclickelement).build().perform();
 	}
 
 	
