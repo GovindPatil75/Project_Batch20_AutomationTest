@@ -50,4 +50,16 @@ public class Test_S21 {
          
 	}
 
+	public static void HandleFrame(WebDriver driver,WebElement element) {
+		try {
+		     driver.switchTo().frame(element); // Mainapge -->Frame
+		
+		}catch(Exception e){
+			System.out.println(e.getMessage());
+		}
+		
+	}
+	
+	
+	
 }
