@@ -30,7 +30,18 @@ public class Test_S22 {
       
        System.out.println(Data_0_1);
        
+       String data_0_2=wb.getSheet("Sheet1").getRow(0).getCell(2).getStringCellValue();
+       System.out.println(data_0_2);
        
+       double data_0_3=wb.getSheet("Sheet1").getRow(0).getCell(3).getNumericCellValue();
+       
+       String data1=String.valueOf(data_0_3);
+       System.out.println(data_0_3);
+       
+       System.out.println(data1);
+       
+       String data2=data1.replace(".0", "");
+       System.out.println(data2);
        //Browser Open
      //Browser Open
      		//WebDriverManager.chromedriver().setup();
@@ -42,7 +53,7 @@ public class Test_S22 {
               driver.manage().window().maximize();
               
               // Email
-              driver.findElement(By.xpath("//input[@name='email']")).sendKeys(Data_0_0);
+              driver.findElement(By.xpath("//input[@name='email']")).sendKeys(data1);
               
               //Password
               driver.findElement(By.xpath("//input[@name='pass']")).sendKeys(Data_0_1);
