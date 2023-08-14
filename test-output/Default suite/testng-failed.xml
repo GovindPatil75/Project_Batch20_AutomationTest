@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Testautomation.TestAutomation_S12">
+      <class name="com.LoginTest.Test_Login_1">
         <methods>
-          <include name="verifyM2"/>
+          <include name="VerifyLogin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Testautomation.TestAutomation_S12 -->
+      </class> <!-- com.LoginTest.Test_Login_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
