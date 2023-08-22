@@ -1,10 +1,10 @@
 package com.LoginTest;
 
-public class Test_2 {
+public class Test_2_Login {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println("Test case from batch 20-group 3");
+System.out.println("This is my first push request Script");
 	}
 
 }
